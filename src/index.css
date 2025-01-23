@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.inputs input{
+  background-color:rgb(35, 15, 69);
+  padding: 1rem;
+  color: white !important;
+  font-size: large;
+}
